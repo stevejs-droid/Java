@@ -50,3 +50,18 @@ class Employee {
         System.out.println("ID: " + empId + ", Name: " + empName + ", Salary: " + salary);
     }
 }
+class Employee {
+    int empId;
+    String empName;
+    double salary;
+
+    Employee(int empId, String empName, double salary) {
+        this.empId = empId;
+        this.empName = empName;
+        this.salary = salary;
+    }
+
+    void displayEmployee() {
+        System.out.println("ID: " + empId + ", Name: " + empName + ", Salary: " + salary);
+    }
+}
